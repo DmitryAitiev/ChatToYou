@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803574193579",
+    "project_id": "chattoyou-1fd12",
+    "storage_bucket": "chattoyou-1fd12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803574193579:android:6fbea972bec8bf4b5006ee",
+        "android_client_info": {
+          "package_name": "com.example.chattoyou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDulGovSbM-0Sa6x6Zwf1-zSQV1LNgPJiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

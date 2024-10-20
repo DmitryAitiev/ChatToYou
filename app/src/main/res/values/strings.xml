@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatToYou</string>
+    <string name="textViewName">Chat to You</string>
+    <string name="shortDescription">Не самый быстрый мессенджер в мире. \nБесплатный и точка.</string>
+    <string name="editMail">Почта</string>
+    <string name="editPassword">Пароль</string>
+    <string name="textViewRegistration">Регистрация</string>
+    <string name="textViewForgotPassword">Забыл пароль</string>
+</resources>
