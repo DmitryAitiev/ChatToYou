@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPerson"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:padding="16dp"
+        tools:text="Dmitry Aitiev"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageViewOnline"
+        android:src = "@drawable/circle_green"
+        android:layout_margin="16dp"
+        />
+
+</LinearLayout>

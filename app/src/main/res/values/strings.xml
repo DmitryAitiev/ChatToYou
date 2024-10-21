@@ -6,4 +6,8 @@
     <string name="editPassword">Пароль</string>
     <string name="textViewRegistration">Регистрация</string>
     <string name="textViewForgotPassword">Забыл пароль</string>
+    <string name="open">Открыть меню</string>
+    <string name="close">Закрыть меню</string>
+    <string name="resetPassword">Восстановление пароля</string>
+    <string name="inputMail">Введите почту</string>
 </resources>

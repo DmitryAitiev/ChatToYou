@@ -1,5 +1,7 @@
 package com.example.chattoyou
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -30,6 +32,13 @@ class LoginActivity : AppCompatActivity() {
         auth = Firebase.auth
         binding.buttonNextPage.setOnClickListener {
             authorization()
+        }
+        binding.textViewRegistation.setOnClickListener {
+            val intent = RegistrationActivity.newIntent(this@LoginActivity)
+            startActivity(intent)
+        }
+        binding.textViewForgotPassword.setOnClickListener {
+            startActivity(ResetPasswordActivity.newIntent(this@LoginActivity))
         }
     }
 
@@ -66,5 +75,10 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this@LoginActivity, "Почта или пароль не найдены", Toast.LENGTH_SHORT).show()
                 Log.d(TAG, it.message.toString())
             }
+    }
+    companion object {
+        fun newIntent(context: Context): Intent {
+            return Intent(context, LoginActivity::class.java)
+        }
     }
 }
